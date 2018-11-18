@@ -1,0 +1,287 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	background: #f0f0f0;
+}
+
+li {
+	list-style: none;
+}
+
+.livuong::before {
+	content: "\25AA"; color: red;
+}
+
+.litron::before {
+	content: "\2022"; color: red;
+}
+
+a {
+	color: #4f82ac;
+	text-decoration: none;
+}
+
+a:hover {
+	font-style: italic;
+}
+
+img {
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+}
+.fll {
+	float: left;
+}
+
+.flr {
+	float: right;
+}
+
+.clear {
+	overflow: hidden;
+}
+
+.clear::after {
+	content: ".";
+	visibility: hidden;
+	clear: both;
+}
+
+.mw100 {
+	max-width: 100%;
+}
+
+.w33 {
+	width: 33%;
+}
+
+.w50 {
+	width: 50%;
+}
+
+.container {
+	margin: 0 auto;
+	width: 980px;
+}
+
+/*header*/
+header {
+	background: #fff;
+}
+
+#logo {
+	width: 30%;
+}
+
+#logo img {
+	border: none;
+  width: 100%;
+  max-height: 70px;
+}
+
+#formsearch {
+	width: 30%;
+	padding: 26px 0;
+}
+
+.search {
+	border-bottom-left-radius: 5px;
+  padding: 5px;
+  border-top-left-radius: 5px;
+}
+
+.btn-search {
+	font-weight: bold;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  background: #da2222;
+  color: #fff;
+  padding: 5px;
+}
+
+#links {
+	width: 40%;
+}
+
+.item-link {
+  margin-top: 4px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+}
+
+/*nav*/
+nav {
+	background: #154bb0;
+	height: 30px;
+}
+
+#nav-list {
+	padding: 5px;
+}
+
+.nav-item {
+	border-right: 1px solid #497dc5;
+}
+.nav-item a {
+	color: #fff;
+	font: 500 11px/20px Tahoma;
+	padding: 0 5px 0 4px;
+}
+
+/*dong su kien*/
+.dsk {
+	background: #d8f2fc;
+	height: 24px;
+	border-bottom: 1px solid #ccc;
+}
+
+.pdsk {
+	border-top-left-radius: 4px;
+  padding: 3px 15px;
+  border: 1px solid #da2222;
+  color: #fff;
+  background: #f99e1a;
+  font-size: 15px;	
+}
+
+.dsk-item {
+	padding: 5px;
+}
+
+/*main*/
+main {
+	background: #fff;
+}
+
+.newstraiduoi {
+  padding-top: 10px;
+  border-top: 2px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.newstrai {
+	width: 70%;
+	padding: 10px;
+	border-right: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+.newsphai {
+	width: 30%;
+}
+
+.newsgim {
+	padding: 3px;
+  width: 55%;
+  box-sizing: border-box;
+}
+
+.events {
+	box-sizing: border-box;
+  width: 45%;
+  border-left: 1px solid #ccc;
+  padding-left: 3px;
+}
+
+.title-event {
+	background: #d00606;
+	color: #fff;
+	padding: 5px 5px 5px 10px;
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 12px;
+}
+
+ul.list-event li {
+  padding: 5px;
+}
+
+
+/* chuyen muc */
+.chuyenmuc {
+	/* width: 50%; */
+}
+
+.chuyenmuctrai {
+	width: 50%;	
+	border-right: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+.chuyenmucphai {
+	width: 50%;
+}
+
+.tieude {
+	border-bottom: 1px solid #014b88;
+	background: #ccc;	
+}
+
+.tieudechinh {
+	text-transform: uppercase;
+  padding: 3px 13px;
+  border: 1px solid #edeeed;
+  background: #004a8b;
+  -webkit-border-radius: 20px;
+  -webkit-border-top-right-radius: 100px;
+  -moz-border-radius: 20px;
+  -moz-border-radius-topright: 100px;
+  border-radius: 20px;
+  border-top-right-radius: 100px;
+  color: #fff;
+}
+
+.tieude-item {
+	padding: 5px;
+  border-right: 1px solid #000;
+  font-size: 12px;
+}
+
+.chuyenmuc-item {
+    padding: 10px;
+}
+
+.chuyenmuc-item li {
+	margin-bottom: 5px;
+}
+
+/*footer*/
+.menu-foot {
+	border-top: 1px dashed #ccc;
+  background: #fff;
+  padding: 5px;
+}
+
+.menu-foot li {
+  padding: 5px;
+  font-size: 11px;
+  color: #004175;
+  text-align: center;
+  border-right: 1px solid #004175;
+}
+
+.info {
+	border-top: 2px solid #ccc;
+	font-size: 14px;
+	padding: 10px;
+	color: #333;
+	background-color: #f1fafe;
+}
+
+.infotrai {
+	width: 70%;
+}
+
+.infotrai p {
+	margin-bottom: 5px;
+}
+
+.infophai {
+	width: 30%;
+}
